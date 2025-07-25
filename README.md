@@ -53,5 +53,45 @@ This guide compiles essential JavaScript concepts and practical examples to help
     "question": "Which method is used to convert JSON to a JS object?",
     "options": ["JSON.parse()", "JSON.stringify()", "Object.fromJSON()", "parseJSON()"],
     "answer": "JSON.parse()"
+  },
+  {
+    "question": "What will be logged? \n```js\nconsole.log(1 + '1');```",
+    "options": ["2", "'2'", "'11'", "NaN"],
+    "answer": "'11'"
+  },
+  {
+    "question": "Which variable declaration is block scoped?",
+    "options": ["var", "let", "const", "both let and const"],
+    "answer": "both let and const"
+  },
+  {
+    "question": "Which of the following is NOT a JavaScript data type?",
+    "options": ["Boolean", "Undefined", "Float", "Symbol"],
+    "answer": "Float"
+  },
+  {
+    "question": "What will be the output? \n```js\nconsole.log(typeof NaN);```",
+    "options": ["number", "NaN", "undefined", "object"],
+    "answer": "number"
+  },
+  {
+    "question": "Which of the following is true about arrow functions?",
+    "options": [
+      "They have their own 'this' context",
+      "They inherit 'this' from their enclosing scope",
+      "They cannot be used as object methods",
+      "They support the arguments object"
+    ],
+    "answer": "They inherit 'this' from their enclosing scope"
+  },
+  {
+    "question": "Which statement is true about JavaScript hoisting?",
+    "options": [
+      "Only variables are hoisted",
+      "Only functions are hoisted",
+      "Both variables and functions are hoisted",
+      "Hoisting doesn’t exist in JavaScript"
+    ],
+    "answer": "Both variables and functions are hoisted"
   }
 ]
