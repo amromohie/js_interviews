@@ -17,3 +17,4 @@ console.log(active_users_names);
 
 const sorted_users = users
     .sort((user1,user2) => (user1.age < user2.age ? 1 :-1));
+consol.log(sorted_users)
