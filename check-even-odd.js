@@ -1,9 +1,12 @@
 function checkEvenOdd(num) {
-  typeof num !== 'number'
-    ? console.log('Please provide a valid number.')
-    : console.log(`${num} is ${num % 2 === 0 ? 'even' : 'odd'}.`);
+  const result = typeof num !== 'number'
+    ? '🚫 Invalid input: not a number.'
+    : `${num} is ${num % 2 === 0 ? '🟢 even' : '🔴 odd'}`;
+
+  console.log(result);
 }
 
-// Example usage
-checkEvenOdd(9);   // Output: 9 is odd.
-checkEvenOdd(44);  // Output: 44 is even.
+// Examples:
+checkEvenOdd(42);      // 🟢 even
+checkEvenOdd(13);      // 🔴 odd
+checkEvenOdd('hello'); // 🚫 Invalid input: not a number.
