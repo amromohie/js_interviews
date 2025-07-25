@@ -42,3 +42,16 @@ This guide compiles essential JavaScript concepts and practical examples to help
 - Focus on JavaScript's quirks and edge cases during mock interviews.
 
 ---
+
+[
+  {
+    "question": "What is the result of `typeof null` in JavaScript?",
+    "options": ["object", "null", "undefined", "boolean"],
+    "answer": "object"
+  },
+  {
+    "question": "Which method is used to convert JSON to a JS object?",
+    "options": ["JSON.parse()", "JSON.stringify()", "Object.fromJSON()", "parseJSON()"],
+    "answer": "JSON.parse()"
+  }
+]
